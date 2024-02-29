@@ -1,0 +1,116 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+ol, ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{max-width: 100%; display: block;}
+button, input, select, textarea, option{border: 0; background-color: transparent;}
+
+header{
+    margin: 20px auto;
+}
+header .wrap{
+    width: 1320px;
+    height: 80px;
+    margin: 0 auto;
+}
+header .wrap .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .wrap .logo img{
+    width: 280px;
+    height: 65px;
+}
+header h1{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+header .wrap ul{
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000000;  
+}
+header .wrap ul li{
+
+    display: flex;
+    justify-content: flex-end;
+}
+header .wrap ul li:first-child{
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+header .wrap ul li input{
+    position: absolute;
+    width: 170px;
+    height: 22px;
+    border: 1px solid #000000;
+}
+header .wrap ul li a img{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+nav{
+    margin-top: 100px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{}
+nav ul h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+nav ul li{
+    display: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.banner{  
+    width: 1320px;
+    margin: 0 auto;
+}
+.banner a{   
+}
+.banner a img{}
+footer {
+    margin-top: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+footer .section h2 {
+    font-size: 18px;
+}
+
+footer .section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .section ul li {
+    margin-bottom: 10px;
+}
+
+footer .section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .bottom {
+    text-align: center;
+    margin-top: 20px;
+}
